@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "utf-8">
+
+      <meta name="viewport" content="width=device-width">
+     
+      <meta name="viewport" content="width=device-width, initialscale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <title>Meet Joshua Ramos</title>
+      <script> function displayDateTime() {
+        var currentDateTime = new Date(); // create a new Date object
+        var date = currentDateTime.toDateString(); // get the current date as a string
+        var time = currentDateTime.toLocaleTimeString(); // get the current time as a string
+
+        // update the HTML element with the date and time value
+        document.getElementById("datetime").innerHTML = "Current Date and Time: " + date + " " + time;
+      }
+    </script>
+      <style>
+            body {
+      background: url("pexels-philippe-donn-1169754.jpg") no-repeat center center fixed; 
+      
+      background-size: cover; 
+    }
+
+
+        #paragraph1 {
+        
+          font-size:20px;
+          font-family: 'Times New Roman', Times, serif;
+          text-align: center;
+        }
+        .paragraphs {
+          font-family: 'Times New Roman', Times, serif;
+          text-align: center;
+        }
+
+        h1 {
+        color:white;
+        padding: 5px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: grey;
+    }
+    img{
+        box-shadow: 10px 10px 15px black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+    .navbar {
+  width: 100%;
+  background-color:gray;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: gray;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.bg-4{
+background-color: gray;
+color: black;
+text-align: center;
+}
+
+    </style>
+</head>
+<body>
+	<div>
+        
+        <div class="navbar">
+         
+          <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> Home Page</a> 
+          <a href="AboutMe.html"><i class="fa fa-fw fa-user"></i> About Me</a>
+          <a href="ContactMe.html"><i class="fa fa-fw fa-envelope"></i> Contact Me</a> 
+          <a href="MyWork.html"><i class="fa fa-fw fa-briefcase"></i> My Work</a> 
+          <a href="MyStore.html"><i class="fa fa-fw fa-shopping-cart"></i> My Store</a> 
+          
+        </div>
+	  
+	  
+<div class="container">
+
+<html>
+    <head>
+       
+<h2> Welcome to my Homepage</h2>
+</head>
+
+<style>
+    div{
+        text-align: center;
+    }
+    h2{text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: gray;
+    color: black;
+    }
+    img{
+        box-shadow:10px 10px 15px black;
+        height:400px;
+        width:400px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+        color: black;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+        color: black;
+    }
+    ul {
+        background-color: gray;
+        color: black;
+        text-align: center;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif ;
+  color: black;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    </style>
+     <div>
+      <img src="MyImage.jpg" alt= "Joshua" ;>
+    <body>
+      <br>
+      <p> My name is Joshua Ramos, throughout my website you will discover my skills, experiences,hobbies, and my future work aspirations.</p>
+         <p> My store page will show items for sale with a functioning add to cart feature.</p>
+          <p>I hope you enjoy navigating through my website.</p>
+          <br>
+          <br>
+
+</div>
+</body>
+</html>
+<html>
+    <style>
+        .footer{
+            position: fixed;
+            left: 0;
+            background-color: gray;
+            color:black
+        }
+        .button{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: gray;
+            color: black;
+        }
+        </style>
+<footer class = "container-fluid bg-4 text-center">
+    <p><b>© 2023 Joshua Ramos </b><br>02.23.2023</p>
+    <button class = "button" 
+    onclick="displayDateTime()">Display Date and Time</button>
+    <p id="datetime"></p>
+    
+    </footer>
+</html>
